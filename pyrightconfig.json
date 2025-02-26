@@ -1,0 +1,12 @@
+{
+  "include": ["src"],
+  "exclude": ["**/node_modules", "**/__pycache__"],
+  "extraPaths": ["src"],
+  "venvPath": "~/.cache/pypoetry/virtualenvs",
+  "venv": "seu_projeto-XYZ",
+  "pythonVersion": "3.13",
+  "pythonPlatform": "Linux",
+  "reportMissingImports": true,
+  "typeCheckingMode": "basic"
+}
+

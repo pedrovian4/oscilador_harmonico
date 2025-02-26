@@ -1,0 +1,22 @@
+[project]
+name = "super-physics"
+version = "0.0.1"
+description = "Super physics is a app to help out create some easy simulations"
+authors = [
+    {name = "Pedro Viana",email = "pedrovianaasking@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygame (>=2.6.1,<3.0.0)",
+    "numpy (>=2.2.3,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
